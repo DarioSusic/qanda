@@ -1,0 +1,14 @@
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
