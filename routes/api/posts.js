@@ -84,7 +84,6 @@ router.get('/:id', auth, async (req, res) => {
 //@access   Private
 router.delete('/:id', auth, async (req, res) => {
   try {
-    //TODO Sort by likes
     const post = await Post.findById(req.params.id);
 
     if (!post) {
