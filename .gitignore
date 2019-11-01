@@ -3,6 +3,7 @@
 # dependencies
 /backend/node_modules
 /client/node_modules
+config/default.json
 /node_modules
 /.pnp
 .pnp.js
