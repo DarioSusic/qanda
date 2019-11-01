@@ -51,8 +51,9 @@ router.post(
 //@access   Private
 router.get('/', auth, async (req, res) => {
   try {
-    //TODO Sort by likes
-    const posts = await Post.find().sort({ createdAt: -1 });
+    const posts = await Post.find()
+      .sort({ likes: 1 })
+      .limit(20);
     res.json(posts);
   } catch (err) {
     console.error(err.message);
